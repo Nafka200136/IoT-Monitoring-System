@@ -99,15 +99,3 @@ IoT_Project_Akhir/
 ### Menggunakan Antarmuka Web
 1. Buka browser dan akses `http://iot_project.test` untuk melihat data suhu dan kelembaban secara real-time.
 2. Gunakan tombol untuk mengontrol LED.
-
-## Kontribusi
-
-1. Fork repositori ini.
-2. Buat branch fitur Anda: `git checkout -b fitur-baru`.
-3. Commit perubahan Anda: `git commit -am 'Tambah fitur baru'`.
-4. Push ke branch: `git push origin fitur-baru`.
-5. Buat Pull Request.
-
-## Lisensi
-
-Proyek ini dilisensikan di bawah [MIT License](LICENSE).
