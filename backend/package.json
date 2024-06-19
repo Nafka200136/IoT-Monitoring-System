@@ -1,0 +1,16 @@
+{
+  "name": "iot_project_backend",
+  "version": "1.0.0",
+  "description": "Backend server for IoT project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mqtt": "^4.2.8",
+    "ws": "^7.4.5"
+  },
+  "author": "M. Nafka Ardian",
+  "license": "MIT"
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IoT Monitoring</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns"></script>
+</head>
+<body>
+
+<h1>IoT Monitoring System</h1>
+<div id="data">
+    <p>Suhu: <span id="suhu">0</span> °C</p>
+    <p>Kelembaban: <span id="kelembaban">0</span> %</p>
+</div>
+<div class="containerChart">
+    <canvas id="chartSuhuKelembaban"></canvas>
+</div>
+<div id="controls">
+    <button onclick="controlLED('D5', 1)">Turn on LED D5</button>
+    <button onclick="controlLED('D5', 0)">Turn off LED D5</button>
+    <button onclick="controlLED('D6', 1)">Turn on LED D6</button>
+    <button onclick="controlLED('D6', 0)">Turn off LED D6</button>
+    <button onclick="controlLED('D7', 1)">Turn on LED D7</button>
+    <button onclick="controlLED('D7', 0)">Turn off LED D7</button>
+</div>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>
